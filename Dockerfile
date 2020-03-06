@@ -1,5 +1,5 @@
 # INSTALL UBUNTU
-FROM node:11.2-slim
+FROM node:lts-slim
 
 #INSTALL LIBAIO1 & UNZIP (NEEDED FOR STRONG-ORACLE)
 RUN apt-get update \
